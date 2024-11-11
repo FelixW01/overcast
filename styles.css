@@ -84,6 +84,13 @@ section {
   padding: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
 #hero-fall {
   background-image: url("./public/images/cover-2.jpg");
 }
