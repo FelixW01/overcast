@@ -36,16 +36,22 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 1.25rem;
-}
-
-.nav-cart-div {
-  margin-right: 1rem;
+  margin: 0 1.25rem;
 }
 
 .nav-cart-div a {
   margin: 0.25rem;
 }
+
+#envelope-icon {
+  min-height: 18px;
+}
+
+.logo {
+  width: 135px;
+  height: 90px;
+}
+
 /* Nav */
 
 /* Main */
@@ -121,6 +127,26 @@ a:visited {
   .hero-content {
     min-width: 25%;
     min-height: auto;
+  }
+  .logo {
+    width: 150px;
+    height: 115px;
+  }
+  .nav-cart-div {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-div {
+    margin: 0 1.75rem;
+  }
+  .logo {
+    width: 175px;
+    height: 135px;
+  }
+  #envelope-icon {
+    margin-right: 1rem;
   }
 }
 
