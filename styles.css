@@ -65,7 +65,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("./public/images/cover-1.jpg");
+  background-image: url("./public/images/cover-1-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -73,6 +73,7 @@ section {
 }
 
 .hero-content {
+  min-width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,21 +93,35 @@ a:visited {
 }
 
 #hero-fall {
-  background-image: url("./public/images/cover-2.jpg");
+  background-image: url("./public/images/cover-2-mobile.jpg");
 }
 #hero-winter {
-  background-image: url("./public/images/cover-3.jpg");
+  background-image: url("./public/images/cover-3-mobile.jpg");
 }
 
-@media (max-width: 960px) {
-  .hero-image {
-    background-image: url("./public/images/cover-1-mobile.jpg");
-  }
+@media (min-width: 600px) {
   #hero-fall {
-    background-image: url("./public/images/cover-2-mobile.jpg");
+    background-image: url("./public/images/cover-2-tablet.jpg");
   }
-  #hero-winter {
-    background-image: url("./public/images/cover-3-mobile.jpg");
+  .hero-content {
+    min-width: 50%;
   }
 }
+
+@media (min-width: 960px) {
+  .hero-image {
+    background-image: url("./public/images/cover-1.jpg");
+  }
+  #hero-fall {
+    background-image: url("./public/images/cover-2.jpg");
+  }
+  #hero-winter {
+    background-image: url("./public/images/cover-3.jpg");
+  }
+  .hero-content {
+    min-width: 25%;
+    min-height: auto;
+  }
+}
+
 /* Main */
