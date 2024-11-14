@@ -89,6 +89,7 @@ section {
   border-radius: 0.5rem;
   margin-top: 2rem;
   padding: 1rem;
+  backdrop-filter: blur(2px);
 }
 
 a {

@@ -11,6 +11,7 @@ fetch('../products.json')
     })
     .then(data => {
     divEl.innerHTML = ''; 
+    console.log(data.clothes.men[0].name, '<<< data')
     isMen ? console.log(data.clothes.men) : console.log(data.clothes.women)
     isMen ? populateProducts(data.clothes.men) : populateProducts(data.clothes.women)
 
