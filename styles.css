@@ -39,7 +39,7 @@ body {
   margin: 0 1.25rem;
 }
 
-.nav-cart-div a {
+.nav-link {
   margin: 0.25rem;
 }
 
@@ -85,12 +85,13 @@ section {
   justify-content: center;
   align-items: center;
   color: #e0e0e0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 0.5rem;
   margin-top: 2rem;
   padding: 1rem;
   backdrop-filter: blur(2px);
 }
+
 .hero-image a {
   display: flex;
   flex-direction: column;
@@ -101,7 +102,7 @@ section {
 }
 
 .hero-content:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 a {
   text-decoration: none;
@@ -160,6 +161,9 @@ a:visited {
     padding: 2rem;
     max-width: 100%;
   }
+  .hero-image a {
+    max-width: 50%;
+  }
   .logo {
     width: 150px;
     height: 115px;
@@ -167,11 +171,14 @@ a:visited {
   .nav-cart-div {
     margin-right: 1rem;
   }
+  .nav-link i {
+    font-size: 1.25rem;
+  }
 }
 
 @media (min-width: 1200px) {
   .hero-image a {
-    max-width: 30%;
+    max-width: 40%;
   }
   .nav-div {
     margin: 0 1.75rem;
@@ -182,6 +189,13 @@ a:visited {
   }
   #envelope-icon {
     margin-right: 1rem;
+  }
+  .hero-content {
+    font-size: 1.25rem;
+    padding: 2.5rem;
+  }
+  .nav-link {
+    margin: 0 0.5rem 1rem 0.5rem;
   }
 }
 
