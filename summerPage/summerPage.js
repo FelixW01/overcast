@@ -3,7 +3,11 @@ let isMen = true;
 const collection = 'summer'
 let genderIsMen = true;
 const genderEl = document.getElementById('gender')
+// const summerEl = document.getElementById('summer')
+// const fallEl = document.getElementById('fall')
+// const winterEl = document.getElementById('winter')
 
+// Fetch data from JSON file
 function getData() {
 fetch('../products.json')
     .then(response => {
@@ -22,6 +26,7 @@ fetch('../products.json')
 
 getData()
 
+// Checks if the user is trying to go towards the men/women product page and populate accordingly
 function changeGender() {
     genderIsMen = !genderIsMen;
     isMen = genderIsMen;
@@ -29,6 +34,7 @@ function changeGender() {
     getData()
 }
 
+// Populate dynamic data
 function populateProducts(data) {
     
     data.forEach(clothe => {
@@ -47,6 +53,15 @@ function populateProducts(data) {
     })
 }
 
-
+// Click event listener for genderEl
 genderEl.addEventListener('click', changeGender)
 
+// summerEl.addEventListener('click', e => {
+//     console.log(e, "<<<<< target val")
+// })
+// fallEl.addEventListener('click', e => {
+//     console.log(e, "<<<<< target val")
+// })
+// winterEl.addEventListener('click', e => {
+//     console.log(e, "<<<<< target val")
+// })
