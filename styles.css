@@ -79,7 +79,7 @@ section {
 }
 
 .hero-content {
-  min-width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,12 +91,36 @@ section {
   padding: 1rem;
   backdrop-filter: blur(2px);
 }
+.hero-image a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+}
 
+.hero-content:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
 a {
   text-decoration: none;
 }
+
 a:visited {
   text-decoration: none;
+}
+
+.down-div {
+  position: fixed;
+  bottom: 1rem;
+  font-size: 2rem;
+  color: rgb(224, 224, 224);
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
 }
 
 #hero-fall {
@@ -110,8 +134,8 @@ a:visited {
   #hero-fall {
     background-image: url("./public/images/cover-2-tablet.jpg");
   }
-  .hero-content {
-    min-width: 50%;
+  .hero-image a {
+    max-width: 60%;
   }
 }
 
@@ -126,8 +150,8 @@ a:visited {
     background-image: url("./public/images/cover-3.jpg");
   }
   .hero-content {
-    min-width: 25%;
-    min-height: auto;
+    padding: 2rem;
+    max-width: 100%;
   }
   .logo {
     width: 150px;
@@ -139,6 +163,9 @@ a:visited {
 }
 
 @media (min-width: 1200px) {
+  .hero-image a {
+    max-width: 30%;
+  }
   .nav-div {
     margin: 0 1.75rem;
   }
