@@ -1,104 +1,182 @@
 {
-  "clothes": {
-    "men": [
-      {
-        "name": "Classic White T-Shirt",
-        "description": "A comfortable and stylish white t-shirt made from 100% cotton.",
-        "price": "14.90",
-        "src": "../public/images/product-men-1.jpg",
-        "alt": "Classic White T-Shirt - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E461001-000/00"
-      },
-      {
-        "name": "Crew Neck T-Shirt",
-        "description": "Relaxed, unisex cut.",
-        "price": "19.90",
-        "src": "../public/images/product-men-2.jpg",
-        "alt": "Crew Neck T-Shirt - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=57&sizeDisplayCode=003"
-      },
-      {
-        "name": "AIRism Cotton T-Shirt",
-        "description": "With stretch, DRY, Cool Touch, and odor control comfort features.",
-        "price": "14.90",
-        "src": "../public/images/product-men-3.jpg",
-        "alt": "AIRism Cotton T-Shirt - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E454315-000/00?colorDisplayCode=69&sizeDisplayCode=004"
-      },
-      {
-        "name": "HEATTECH Cotton T-Shirt",
-        "description": "Wicks away moisture to keep you feeling fresh",
-        "price": "24.90",
-        "src": "../public/images/product-men-4.jpg",
-        "alt": "HEATTECH Cotton T-Shirt - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E450529-000/00?colorDisplayCode=01&sizeDisplayCode=004"
-      },
-      {
-        "name": "Dry Stretch Easy Shorts | 8in",
-        "description": "A comfortable and stylish white t-shirt made from 100% cotton.",
-        "price": "29.90",
-        "src": "../public/images/product-men-5.jpg",
-        "alt": "Dry Stretch Easy Shorts - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E454780-000/00?colorDisplayCode=08&sizeDisplayCode=005"
-      },
-      {
-        "name": "AIRism Cotton Easy Shorts",
-        "description": "Smooth ‘AIRism’ made with slub yarns for a casual style.",
-        "price": "19.99",
-        "src": "../public/images/product-men-6.jpg",
-        "alt": "AIRism Cotton Easy Shorts - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E464823-000/01?colorDisplayCode=54&sizeDisplayCode=005"
-      }
-    ],
-    "women": [
-      {
-        "name": "Mini T-Shirt | Striped",
-        "description": "Basic short-sleeve 1990s T-shirt.",
-        "price": "14.90",
-        "src": "../public/images/product-women-1.jpg",
-        "alt": "Mini t-shirt - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E476248-000/00?colorDisplayCode=69&sizeDisplayCode=003"
-      },
-      {
-        "name": "Ultra Stretch AIRism Cropped T-Shirt",
-        "description": "AIRism performance, fitted cut in a cropped length.",
-        "price": "19.90",
-        "src": "../public/images/product-women-2.jpg",
-        "alt": "AIRism Cropped T-Shirt - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E465762-000/00?colorDisplayCode=00&sizeDisplayCode=005"
-      },
-      {
-        "name": "Crew Neck T-Shirt",
-        "description": "Made of compact 100% cotton, perfect for wearing layering or wearing on its own",
-        "price": "14.90",
-        "src": "../public/images/product-women-3.jpg",
-        "alt": "Crew Neck T-Shirt - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E424873-000/00?colorDisplayCode=00&sizeDisplayCode=004"
-      },
-      {
-        "name": "AIRism Cotton T-Shirt",
-        "description": "Simple design and versatile length pair well with pants and skirts.",
-        "price": "19.90",
-        "src": "../public/images/product-women-4.jpg",
-        "alt": "AIRism Cotton T-Shirt - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E465755-000/00?colorDisplayCode=33&sizeDisplayCode=003"
-      },
-      {
-        "name": "Ultra Stretch AIRism Shorts",
-        "description": "'AIRism' with DRY technology and Cool Touch features.",
-        "price": "29.90",
-        "src": "../public/images/product-women-5.jpg",
-        "alt": "Ultra Stretch AIRism Shorts - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E472962-000/00?colorDisplayCode=72&sizeDisplayCode=003"
-      },
-      {
-        "name": "Pleated Shorts",
-        "description": "Two-way stretch fabric. - Sleek, non-gathered high-waist design with an elastic waistband.",
-        "price": "19.90",
-        "src": "../public/images/product-women-6.jpg",
-        "alt": "Pleated Shorts - Front view image",
-        "link": "https://www.uniqlo.com/us/en/products/E464842-000/00?colorDisplayCode=30&sizeDisplayCode=003"
-      }
-    ]
+  "collections": {
+    "summer": {
+      "men": [
+        {
+          "name": "Classic White T-Shirt",
+          "description": "A comfortable and stylish white t-shirt made from 100% cotton.",
+          "price": "14.90",
+          "src": "../public/images/product-men-1.jpg",
+          "alt": "Classic White T-Shirt - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E461001-000/00"
+        },
+        {
+          "name": "Crew Neck T-Shirt",
+          "description": "Relaxed, unisex cut.",
+          "price": "19.90",
+          "src": "../public/images/product-men-2.jpg",
+          "alt": "Crew Neck T-Shirt - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=57&sizeDisplayCode=003"
+        },
+        {
+          "name": "AIRism Cotton T-Shirt",
+          "description": "With stretch, DRY, Cool Touch, and odor control comfort features.",
+          "price": "14.90",
+          "src": "../public/images/product-men-3.jpg",
+          "alt": "AIRism Cotton T-Shirt - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E454315-000/00?colorDisplayCode=69&sizeDisplayCode=004"
+        },
+        {
+          "name": "HEATTECH Cotton T-Shirt",
+          "description": "Wicks away moisture to keep you feeling fresh",
+          "price": "24.90",
+          "src": "../public/images/product-men-4.jpg",
+          "alt": "HEATTECH Cotton T-Shirt - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E450529-000/00?colorDisplayCode=01&sizeDisplayCode=004"
+        },
+        {
+          "name": "Dry Stretch Easy Shorts | 8in",
+          "description": "A comfortable and stylish white t-shirt made from 100% cotton.",
+          "price": "29.90",
+          "src": "../public/images/product-men-5.jpg",
+          "alt": "Dry Stretch Easy Shorts - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E454780-000/00?colorDisplayCode=08&sizeDisplayCode=005"
+        },
+        {
+          "name": "AIRism Cotton Easy Shorts",
+          "description": "Smooth ‘AIRism’ made with slub yarns for a casual style.",
+          "price": "19.99",
+          "src": "../public/images/product-men-6.jpg",
+          "alt": "AIRism Cotton Easy Shorts - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E464823-000/01?colorDisplayCode=54&sizeDisplayCode=005"
+        }
+      ],
+      "women": [
+        {
+          "name": "Mini T-Shirt | Striped",
+          "description": "Basic short-sleeve 1990s T-shirt.",
+          "price": "14.90",
+          "src": "../public/images/product-women-1.jpg",
+          "alt": "Mini t-shirt - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E476248-000/00?colorDisplayCode=69&sizeDisplayCode=003"
+        },
+        {
+          "name": "Ultra Stretch AIRism Cropped T-Shirt",
+          "description": "AIRism performance, fitted cut in a cropped length.",
+          "price": "19.90",
+          "src": "../public/images/product-women-2.jpg",
+          "alt": "AIRism Cropped T-Shirt - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E465762-000/00?colorDisplayCode=00&sizeDisplayCode=005"
+        },
+        {
+          "name": "Crew Neck T-Shirt",
+          "description": "Made of compact 100% cotton, perfect for wearing layering or wearing on its own",
+          "price": "14.90",
+          "src": "../public/images/product-women-3.jpg",
+          "alt": "Crew Neck T-Shirt - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E424873-000/00?colorDisplayCode=00&sizeDisplayCode=004"
+        },
+        {
+          "name": "AIRism Cotton T-Shirt",
+          "description": "Simple design and versatile length pair well with pants and skirts.",
+          "price": "19.90",
+          "src": "../public/images/product-women-4.jpg",
+          "alt": "AIRism Cotton T-Shirt - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E465755-000/00?colorDisplayCode=33&sizeDisplayCode=003"
+        },
+        {
+          "name": "Ultra Stretch AIRism Shorts",
+          "description": "'AIRism' with DRY technology and Cool Touch features.",
+          "price": "29.90",
+          "src": "../public/images/product-women-5.jpg",
+          "alt": "Ultra Stretch AIRism Shorts - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E472962-000/00?colorDisplayCode=72&sizeDisplayCode=003"
+        },
+        {
+          "name": "Pleated Shorts",
+          "description": "Two-way stretch fabric. - Sleek, non-gathered high-waist design with an elastic waistband.",
+          "price": "19.90",
+          "src": "../public/images/product-women-6.jpg",
+          "alt": "Pleated Shorts - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E464842-000/00?colorDisplayCode=30&sizeDisplayCode=003"
+        }
+      ]
+    },
+    "fall": {
+      "men": [
+        {
+          "name": "HEATTECH Cotton T-Shirt",
+          "description": "Wicks away moisture to keep you feeling fresh.",
+          "price": "24.90",
+          "src": "../public/images/product-men-4.jpg",
+          "alt": "HEATTECH Cotton T-Shirt - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E450529-000/00?colorDisplayCode=01&sizeDisplayCode=004"
+        },
+        {
+          "name": "Dry Stretch Easy Shorts | 8in",
+          "description": "A comfortable and stylish white t-shirt made from 100% cotton.",
+          "price": "29.90",
+          "src": "../public/images/product-men-5.jpg",
+          "alt": "Dry Stretch Easy Shorts - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E454780-000/00?colorDisplayCode=08&sizeDisplayCode=005"
+        }
+      ],
+      "women": [
+        {
+          "name": "Ultra Stretch AIRism Shorts",
+          "description": "'AIRism' with DRY technology and Cool Touch features.",
+          "price": "29.90",
+          "src": "../public/images/product-women-5.jpg",
+          "alt": "Ultra Stretch AIRism Shorts - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E472962-000/00?colorDisplayCode=72&sizeDisplayCode=003"
+        },
+        {
+          "name": "Pleated Shorts",
+          "description": "Two-way stretch fabric. - Sleek, non-gathered high-waist design with an elastic waistband.",
+          "price": "19.90",
+          "src": "../public/images/product-women-6.jpg",
+          "alt": "Pleated Shorts - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E464842-000/00?colorDisplayCode=30&sizeDisplayCode=003"
+        }
+      ]
+    },
+    "winter": {
+      "men": [
+        {
+          "name": "Classic Winter Coat",
+          "description": "A cozy and warm winter coat designed for cold weather.",
+          "price": "99.90",
+          "src": "../public/images/product-men-winter-1.jpg",
+          "alt": "Classic Winter Coat - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E461001-000/00"
+        },
+        {
+          "name": "Thermal Wool Sweater",
+          "description": "Made with wool to keep you warm during the winter months.",
+          "price": "39.90",
+          "src": "../public/images/product-men-winter-2.jpg",
+          "alt": "Thermal Wool Sweater - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=57&sizeDisplayCode=003"
+        }
+      ],
+      "women": [
+        {
+          "name": "Fleece Lined Tights",
+          "description": "Warm, fleece-lined tights perfect for layering.",
+          "price": "14.90",
+          "src": "../public/images/product-women-winter-1.jpg",
+          "alt": "Fleece Lined Tights - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E476248-000/00?colorDisplayCode=69&sizeDisplayCode=003"
+        },
+        {
+          "name": "Winter Parka",
+          "description": "Insulated winter parka for maximum warmth and comfort.",
+          "price": "149.90",
+          "src": "../public/images/product-women-winter-2.jpg",
+          "alt": "Winter Parka - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E465762-000/00?colorDisplayCode=00&sizeDisplayCode=005"
+        }
+      ]
+    }
   }
 }

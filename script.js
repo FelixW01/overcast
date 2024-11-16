@@ -21,3 +21,23 @@ mainContainer.addEventListener('scroll', () => {
         downArrow.classList.remove('hidden');
     }
 })
+
+const summerLink = document.getElementById('summer');
+const fallLink = document.getElementById('fall');
+const winterLink = document.getElementById('winter');
+
+function storeCollection(collection) {
+    localStorage.setItem('userCollection', collection);
+}
+
+summerLink.addEventListener('click', (e) => {
+    storeCollection('summer');
+});
+
+fallLink.addEventListener('click', (e) => {
+    storeCollection('fall');
+});
+
+winterLink.addEventListener('click', (e) => {
+    storeCollection('winter');
+});

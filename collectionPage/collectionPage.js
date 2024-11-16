@@ -1,11 +1,9 @@
 const divEl = document.getElementById('product-div');
 let isMen = true;
-const collection = 'summer'
+const collection = localStorage.getItem('userCollection')
 let genderIsMen = true;
-const genderEl = document.getElementById('gender')
-// const summerEl = document.getElementById('summer')
-// const fallEl = document.getElementById('fall')
-// const winterEl = document.getElementById('winter')
+const genderEl = document.getElementById('gender');
+const h1El = document.getElementById('collection-title');
 
 // Fetch data from JSON file
 function getData() {
@@ -15,9 +13,15 @@ fetch('../products.json')
     })
     .then(data => {
     divEl.innerHTML = ''; 
-    console.log(data.clothes.men[0].name, '<<< data')
-    isMen ? console.log(data.clothes.men) : console.log(data.clothes.women)
-    isMen ? populateProducts(data.clothes.men) : populateProducts(data.clothes.women)
+    h1El.innerHTML = `${collection.charAt(0).toUpperCase() + collection.slice(1)} Collection`
+    
+    if (collection === 'summer') {
+        isMen ? populateProducts(data.collections.summer.men) : populateProducts(data.collections.summer.women)
+    } else if (collection === 'fall') {
+        isMen ? populateProducts(data.collections.fall.men) : populateProducts(data.collections.fall.women)
+    } else {
+        isMen ? populateProducts(data.collections.winter.men) : populateProducts(data.collections.winter.women)
+    }
 
 }).catch(err => {
     console.log('Error', err)
@@ -55,13 +59,3 @@ function populateProducts(data) {
 
 // Click event listener for genderEl
 genderEl.addEventListener('click', changeGender)
-
-// summerEl.addEventListener('click', e => {
-//     console.log(e, "<<<<< target val")
-// })
-// fallEl.addEventListener('click', e => {
-//     console.log(e, "<<<<< target val")
-// })
-// winterEl.addEventListener('click', e => {
-//     console.log(e, "<<<<< target val")
-// })
