@@ -69,7 +69,8 @@ function populateTags() {
 
     const tags = collectionTags[collection];
     tags.forEach(tag => {
-        dropdownEl.innerHTML += `<li><a data-value="${tag}">${tag}</a></li>`;
+        dropdownEl.innerHTML += `<li class="dropdown-li"><a data-value="${tag}">${tag}</a></li>
+                                 <li class="divider" tabindex="-1"></li>`;
     });
 }
 
@@ -109,6 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Added logic to close dropdown on reclick
         toggleBtn.addEventListener('click', (e) => {
         const instance = M.Dropdown.getInstance(elems[0]);
+        e.preventDefault();
         e.stopPropagation();
         if (!isOpen) {
             instance.open();
@@ -117,11 +119,13 @@ document.addEventListener('DOMContentLoaded', function() {
             instance.close();
             isOpen = false
           }
-        })
+        });
+        elems.forEach((elem) => {
+        elem.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+    });
       });
-
-
-
 
   // Listen for when a dropdown item is selected
   dropdownEl.addEventListener('click', function(e) {
