@@ -44,6 +44,12 @@ body {
 
 .nav-link {
   margin: 0.25rem;
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+.nav-link:visited {
+  color: #e0e0e0;
 }
 
 #envelope-icon {
@@ -53,6 +59,11 @@ body {
 .logo {
   width: 135px;
   height: 90px;
+}
+
+.nav-cart-div i:hover {
+  cursor: pointer;
+  color: #cccccc;
 }
 
 /* Nav */

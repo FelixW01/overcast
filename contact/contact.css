@@ -1,0 +1,150 @@
+html {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+h2,
+p {
+  margin: 0;
+}
+/* Nav */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: start;
+  min-height: 7rem;
+  background: #333333;
+  width: 100%;
+  color: #e0e0e0;
+}
+
+.nav-div {
+  width: 100%;
+  min-height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.nav-cart-div a {
+  margin: 0.5rem;
+  color: #e0e0e0;
+}
+
+.nav-cart-div i {
+  color: #e0e0e0;
+}
+
+.nav-cart-div i:hover {
+  cursor: pointer;
+  color: #cccccc;
+}
+
+#envelope-icon {
+  min-height: 18px;
+}
+
+.logo {
+  width: 135px;
+  height: 7rem;
+}
+
+/* Nav */
+
+/* Main */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#form-container {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  margin: 5rem 0;
+}
+#submit-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#submit-div button {
+  border-radius: 4px;
+  background-color: #333333;
+  color: #e0e0e0;
+  padding: 0.5rem 1rem;
+  min-width: 10rem;
+}
+
+.error-text {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+/* Main */
+
+/* Footer */
+#footer-container {
+  width: 100%;
+  padding: 0;
+  background-color: #333333;
+}
+.copyright-p {
+  text-align: center;
+}
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1.5rem 0;
+  font-size: 1.25rem;
+}
+
+#footer-container a {
+  color: #e0e0e0;
+}
+
+#footer-container a:visited {
+  color: #e0e0e0;
+}
+
+#footer-container a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
+/* Footer */

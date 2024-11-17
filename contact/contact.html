@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-commerce</title>
+    <title>Contact</title>
     <script
       src="https://kit.fontawesome.com/1eddc9d798.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="collectionPage.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <nav class="nav-container" id="nav-hero">
@@ -21,23 +22,49 @@
           <a><i class="fa-solid fa-cart-shopping" alt="shopping icon"></i></a>
         </div>
     </nav>
+
     <main class="main-container" id="main-hero">
         <section class="main-section">
-            <h1 id="collection-title"></h1>
-            
-
-            <!-- Dropdown Component -->
-            <ul id='dropdown1' class='dropdown-content' data-align="left">
-            </ul>
-          
-            <div class="main-div">
-              <div class="tags-container">
-                <a class='dropdown-trigger btn' href='#' data-target='dropdown1' data-align="left" id="modal-toggle-btn">Tags</a>
-              </div>
-              <div class="card-div-container" id="product-div">
-              </div>
+            <div class="row" id="form-div">
+                <form class="col s12" id="form-container">
+                    <h1>Contact Us!</h1>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="First Name" id="first_name" type="text" class="validate" >
+                        <label for="first_name">First Name</label>
+                </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Last Name" id="last_name" type="text" class="validate" >
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="youremail@email.com" id="email" type="text" class="validate" >
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                <select>
+                    <option value="0" disabled selected>Reason of contact</option>
+                    <option value="customer-service">Customer Service</option>
+                    <option value="order">Order</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+                    <label>Subject</label>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                    <textarea placeholder="Your Message" id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Message</label>
+                </div>
             </div>
-        </section>
+            <div id="submit-div"><button type="submit" onclick="submitForm()">Submit</button></div>
+    </form>
+  </div>
+</section>
 
         <footer class="page-footer" id="footer-container">
       <div class="container">
@@ -69,7 +96,8 @@
     </footer>
 
     </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="collectionPage.js"></script>
+    <script src="contact.js"></script>
   </body>
 </html>
