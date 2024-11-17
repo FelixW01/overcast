@@ -39,7 +39,6 @@ fetch('../products.json')
                 }
             }
         });
-        console.log(filteredProducts)
         populateProducts(filteredProducts);
     } else if (collection === 'summer') {
         isMen ? populateProducts(data.collections.summer.men) : populateProducts(data.collections.summer.women)
@@ -70,7 +69,6 @@ function populateTags() {
 
     const tags = collectionTags[collection];
     tags.forEach(tag => {
-        console.log(tag)
         dropdownEl.innerHTML += `<li><a data-value="${tag}">${tag}</a></li>`;
     });
 }
@@ -111,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Added logic to close dropdown on reclick
         toggleBtn.addEventListener('click', (e) => {
         const instance = M.Dropdown.getInstance(elems[0]);
+        e.stopPropagation();
         if (!isOpen) {
             instance.open();
             isOpen = true
@@ -129,6 +128,5 @@ document.addEventListener('DOMContentLoaded', function() {
     if (e.target) {
       const selectedValue = e.target.textContent.trim();
       getData(selectedValue)
-      console.log('Selected value: ', selectedValue);
     }
   });
