@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const subject = document.querySelector('select');
   const message = document.getElementById('textarea1');
 
-
+// function for submiting form, conditionals for form validation
 function submitForm() {
   errorReset()
 
@@ -63,8 +63,8 @@ function submitForm() {
 },
   onClick: function(){}
 }).showToast();
+    // Reset form inputs on submission
     resetFormFields()
-    console.log('Form has been submitted successfully!');
   }
 }
 
@@ -75,19 +75,21 @@ function errorMessage(input, message) {
   // Create and append the errors to the parentDiv, additionally, add error-text class which makes it red
   const errorSpan = document.createElement('span');
   errorSpan.classList.add('error-text'); 
-  
+  // Edits errorSpan's text into the error message
   errorSpan.textContent = message; 
   parentDiv.appendChild(errorSpan);
   
-  console.log('Error: ' + message);
 }
 
+// Reset the error messages, so it doesn't show multiple times
 function errorReset() {
     const errorMsg = document.querySelectorAll('.error-text');
+    // Removes the .error-text from the dom
     errorMsg.forEach(error => error.remove())
     isValid = true
 }
 
+//Resets all the fields on successful submission
 function resetFormFields() {
   firstName.value = '';
   lastName.value = '';

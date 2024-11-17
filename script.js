@@ -26,6 +26,7 @@ const summerLink = document.getElementById('summer');
 const fallLink = document.getElementById('fall');
 const winterLink = document.getElementById('winter');
 
+// Set user's collection selection into local storage
 function storeCollection(collection) {
     localStorage.setItem('userCollection', collection);
 }

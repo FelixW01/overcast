@@ -31,7 +31,7 @@ fetch('../products.json')
     const products = isMen ? collectionData.men : collectionData.women;
     // Reset filteredProducts to an empty state on every instance
     filteredProducts = []
-
+    // Filtering logic based on selected Tags
      if (selectedValue) {
         products.forEach(product => {
             // if product.tag includes the user selectedValue from the dropdown and the product does not
@@ -43,6 +43,7 @@ fetch('../products.json')
             }
         });
         populateProducts(filteredProducts);
+    // This will run first based on the selected collection recorded in localstorage
     } else if (collection === 'summer') {
         isMen ? populateProducts(data.collections.summer.men) : populateProducts(data.collections.summer.women)
     } else if (collection === 'fall') {
