@@ -109,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Added logic to close dropdown on reclick
         toggleBtn.addEventListener('click', (e) => {
         const instance = M.Dropdown.getInstance(elems[0]);
+        e.preventDefault();
         e.stopPropagation();
         if (!isOpen) {
             instance.open();
@@ -117,7 +118,12 @@ document.addEventListener('DOMContentLoaded', function() {
             instance.close();
             isOpen = false
           }
-        })
+        });
+        elems.forEach((elem) => {
+        elem.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+    });
       });
 
 
