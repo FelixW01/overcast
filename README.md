@@ -3,6 +3,8 @@
 ## Live Website 
 https://felixw01.github.io/overcast/
 
+https://main.dl6emuh44uay.amplifyapp.com/index.html
+
 ## Description
 Welcome to  Overcacast, your one stop shop for your seasonal clothing needs. Overcast focuses on delivering fashion solutions towards those who appreciates the cozy things in life.
 This website was created for the purpose of honing Javascript, HTML and CSS skills especially the practice of fetching an API and dynamically rendering said data into the DOM.
