@@ -8,7 +8,8 @@
           "price": "14.90",
           "src": "../public/images/product-men-1.jpg",
           "alt": "Classic White T-Shirt - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E461001-000/00"
+          "link": "https://www.uniqlo.com/us/en/products/E461001-000/00",
+          "type": "T-shirt"
         },
         {
           "name": "Crew Neck T-Shirt",
@@ -16,7 +17,8 @@
           "price": "19.90",
           "src": "../public/images/product-men-2.jpg",
           "alt": "Crew Neck T-Shirt - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=57&sizeDisplayCode=003"
+          "link": "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=57&sizeDisplayCode=003",
+          "type": "T-shirt"
         },
         {
           "name": "AIRism Cotton T-Shirt",
@@ -24,7 +26,8 @@
           "price": "14.90",
           "src": "../public/images/product-men-3.jpg",
           "alt": "AIRism Cotton T-Shirt - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E454315-000/00?colorDisplayCode=69&sizeDisplayCode=004"
+          "link": "https://www.uniqlo.com/us/en/products/E454315-000/00?colorDisplayCode=69&sizeDisplayCode=004",
+          "type": "T-shirt"
         },
         {
           "name": "HEATTECH Cotton T-Shirt",
@@ -32,7 +35,8 @@
           "price": "24.90",
           "src": "../public/images/product-men-4.jpg",
           "alt": "HEATTECH Cotton T-Shirt - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E450529-000/00?colorDisplayCode=01&sizeDisplayCode=004"
+          "link": "https://www.uniqlo.com/us/en/products/E450529-000/00?colorDisplayCode=01&sizeDisplayCode=004",
+          "type": "T-shirt"
         },
         {
           "name": "Dry Stretch Easy Shorts | 8in",
@@ -40,7 +44,8 @@
           "price": "29.90",
           "src": "../public/images/product-men-5.jpg",
           "alt": "Dry Stretch Easy Shorts - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E454780-000/00?colorDisplayCode=08&sizeDisplayCode=005"
+          "link": "https://www.uniqlo.com/us/en/products/E454780-000/00?colorDisplayCode=08&sizeDisplayCode=005",
+          "type": "Shorts"
         },
         {
           "name": "AIRism Cotton Easy Shorts",
@@ -48,7 +53,8 @@
           "price": "19.99",
           "src": "../public/images/product-men-6.jpg",
           "alt": "AIRism Cotton Easy Shorts - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E464823-000/01?colorDisplayCode=54&sizeDisplayCode=005"
+          "link": "https://www.uniqlo.com/us/en/products/E464823-000/01?colorDisplayCode=54&sizeDisplayCode=005",
+          "type": "Shorts"
         }
       ],
       "women": [
@@ -58,7 +64,8 @@
           "price": "14.90",
           "src": "../public/images/product-women-1.jpg",
           "alt": "Mini t-shirt - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E476248-000/00?colorDisplayCode=69&sizeDisplayCode=003"
+          "link": "https://www.uniqlo.com/us/en/products/E476248-000/00?colorDisplayCode=69&sizeDisplayCode=003",
+          "type": "T-shirt"
         },
         {
           "name": "Ultra Stretch AIRism Cropped T-Shirt",
@@ -66,7 +73,8 @@
           "price": "19.90",
           "src": "../public/images/product-women-2.jpg",
           "alt": "AIRism Cropped T-Shirt - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E465762-000/00?colorDisplayCode=00&sizeDisplayCode=005"
+          "link": "https://www.uniqlo.com/us/en/products/E465762-000/00?colorDisplayCode=00&sizeDisplayCode=005",
+          "type": "T-shirt"
         },
         {
           "name": "Crew Neck T-Shirt",
@@ -74,7 +82,8 @@
           "price": "14.90",
           "src": "../public/images/product-women-3.jpg",
           "alt": "Crew Neck T-Shirt - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E424873-000/00?colorDisplayCode=00&sizeDisplayCode=004"
+          "link": "https://www.uniqlo.com/us/en/products/E424873-000/00?colorDisplayCode=00&sizeDisplayCode=004",
+          "type": "T-shirt"
         },
         {
           "name": "AIRism Cotton T-Shirt",
@@ -82,7 +91,8 @@
           "price": "19.90",
           "src": "../public/images/product-women-4.jpg",
           "alt": "AIRism Cotton T-Shirt - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E465755-000/00?colorDisplayCode=33&sizeDisplayCode=003"
+          "link": "https://www.uniqlo.com/us/en/products/E465755-000/00?colorDisplayCode=33&sizeDisplayCode=003",
+          "type": "T-shirt"
         },
         {
           "name": "Ultra Stretch AIRism Shorts",
@@ -90,7 +100,8 @@
           "price": "29.90",
           "src": "../public/images/product-women-5.jpg",
           "alt": "Ultra Stretch AIRism Shorts - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E472962-000/00?colorDisplayCode=72&sizeDisplayCode=003"
+          "link": "https://www.uniqlo.com/us/en/products/E472962-000/00?colorDisplayCode=72&sizeDisplayCode=003",
+          "type": "Shorts"
         },
         {
           "name": "Pleated Shorts",
@@ -98,83 +109,236 @@
           "price": "19.90",
           "src": "../public/images/product-women-6.jpg",
           "alt": "Pleated Shorts - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E464842-000/00?colorDisplayCode=30&sizeDisplayCode=003"
+          "link": "https://www.uniqlo.com/us/en/products/E464842-000/00?colorDisplayCode=30&sizeDisplayCode=003",
+          "type": "Shorts"
         }
       ]
     },
     "fall": {
       "men": [
         {
-          "name": "HEATTECH Cotton T-Shirt",
-          "description": "Wicks away moisture to keep you feeling fresh.",
-          "price": "24.90",
-          "src": "../public/images/product-men-4.jpg",
-          "alt": "HEATTECH Cotton T-Shirt - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E450529-000/00?colorDisplayCode=01&sizeDisplayCode=004"
+          "name": "DOUBLE SIDED FAUX SUEDE JACKET",
+          "description": "Regular fit jacket made of faux suede fabric",
+          "price": "139.00",
+          "src": "../public/images/product-men-fall-1.jpg",
+          "alt": "DOUBLE SIDED FAUX SUEDE JACKET - Front view image",
+          "link": "https://www.zara.com/us/en/double-sided-faux-suede-jacket-p03286600.html?v1=391647002",
+          "type": "Jackets & Sweaters"
         },
         {
-          "name": "Dry Stretch Easy Shorts | 8in",
-          "description": "A comfortable and stylish white t-shirt made from 100% cotton.",
-          "price": "29.90",
-          "src": "../public/images/product-men-5.jpg",
-          "alt": "Dry Stretch Easy Shorts - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E454780-000/00?colorDisplayCode=08&sizeDisplayCode=005"
+          "name": "CONTRAST LINE SWEATER",
+          "description": "Relaxed fit sweater of knit cotton fabric.",
+          "price": "59.90",
+          "src": "../public/images/product-men-fall-2.jpg",
+          "alt": "CONTRAST LINE SWEATER - Front view image",
+          "link": "https://www.zara.com/us/en/contrast-line-sweater-p00506313.html?v1=379115016",
+          "type": "Jackets & Sweaters"
+        },
+        {
+          "name": "FLECKED KNIT RIBBED SWEATER",
+          "description": "Relaxed fit ribbed structured knit sweater.",
+          "price": "59.90",
+          "src": "../public/images/product-men-fall-3.jpg",
+          "alt": "CONTRAST LINE SWEATER - Front view image",
+          "link": "https://www.zara.com/us/en/flecked-knit-ribbed-sweater-p04938332.html?v1=380771850",
+          "type": "Jackets & Sweaters"
+        },
+        {
+          "name": "TEXTURED SWEATER",
+          "description": "Relaxed fit sweater made with faux fur texture fabric.",
+          "price": "49.00",
+          "src": "../public/images/product-men-fall-4.jpg",
+          "alt": "TEXTURED SWEATER - Front view image",
+          "link": "https://www.zara.com/us/en/textured-sweater-p03166318.html?v1=388243373",
+          "type": "Jackets & Sweaters"
+        },
+        {
+          "name": "SKINNY CHINO PANTS",
+          "description": "Skinny fit pants made of stretchy cotton blend fabric.",
+          "price": "59.90",
+          "src": "../public/images/product-men-fall-5.jpg",
+          "alt": "SKINNY CHINO PANTS - Front view image",
+          "link": "https://www.zara.com/us/en/skinny-chino-pants-p06786405.html?v1=364092528",
+          "type": "Pants"
+        },
+        {
+          "name": "RELAXED FIT PLEATED PANTS",
+          "description": "Relaxed fit pants. Front pleats at waist",
+          "price": "69.90",
+          "src": "../public/images/product-men-fall-6.jpg",
+          "alt": "RELAXED FIT PLEATED PANTS - Front view image",
+          "link": "https://www.zara.com/us/en/relaxed-fit-pleated-pants-p06861456.html?v1=410590396",
+          "type": "Pants"
         }
       ],
       "women": [
         {
-          "name": "Ultra Stretch AIRism Shorts",
-          "description": "'AIRism' with DRY technology and Cool Touch features.",
-          "price": "29.90",
-          "src": "../public/images/product-women-5.jpg",
-          "alt": "Ultra Stretch AIRism Shorts - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E472962-000/00?colorDisplayCode=72&sizeDisplayCode=003"
+          "name": "DOUBLE-SIDED STRAP DETAIL JACKET",
+          "description": "Jacket with lapel collar and long sleeves. Front welt pockets. Tabbed cuff detail. Front zip closure.",
+          "price": "109.00",
+          "src": "../public/images/product-women-fall-1.jpg",
+          "alt": "DOUBLE-SIDED STRAP DETAIL JACKET - Front view image",
+          "link": "https://www.zara.com/us/en/double-sided-strap-detail-jacket-p08372248.html?v1=390183438",
+          "type": "Jackets & Sweaters"
         },
         {
-          "name": "Pleated Shorts",
-          "description": "Two-way stretch fabric. - Sleek, non-gathered high-waist design with an elastic waistband.",
-          "price": "19.90",
-          "src": "../public/images/product-women-6.jpg",
-          "alt": "Pleated Shorts - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E464842-000/00?colorDisplayCode=30&sizeDisplayCode=003"
+          "name": "KNIT CAPE CARDIGAN",
+          "description": "Round neck cardigan with short sleeves and cape. Rib trim. Front button closure.",
+          "price": "69.90",
+          "src": "../public/images/product-women-fall-2.jpg",
+          "alt": "KNIT CAPE CARDIGAN - Front view image",
+          "link": "https://www.zara.com/us/en/knit-cape-cardigan-p02488107.html?v1=380771823",
+          "type": "Jackets & Sweaters"
+        },
+        {
+          "name": "SOFT KNIT SHORT SWEATER",
+          "description": "Round neck long sleeve sweater. Rib trim. Side vents at hem.",
+          "price": "45.90",
+          "src": "../public/images/product-women-fall-3.jpg",
+          "alt": "SOFT KNIT SHORT SWEATER - Front view image",
+          "link": "https://www.zara.com/us/en/soft-knit-short-sweater-p05536200.html?v1=407108429",
+          "type": "Jackets & Sweaters"
+        },
+        {
+          "name": "BASIC KNIT SWEATER",
+          "description": "High collar sweater with long sleeves with buttoned cuffs. Rib trim.",
+          "price": "39.90",
+          "src": "../public/images/product-women-fall-4.jpg",
+          "alt": "BASIC KNIT SWEATER - Front view image",
+          "link": "https://www.zara.com/us/en/basic-knit-sweater-p08851180.html?v1=376548327",
+          "type": "Jackets & Sweaters"
+        },
+        {
+          "name": "STRAIGHT CUT PLEATED PANTS",
+          "description": "Pants with a high waist with front pleats. Front pockets and back false welt pockets. Straight leg. Front zip, interior button and hook closure.",
+          "price": "49.90",
+          "src": "../public/images/product-women-fall-5.jpg",
+          "alt": "STRAIGHT CUT PLEATED PANTS - Front view image",
+          "link": "https://www.zara.com/us/en/straight-cut-pleated-pants-p02753236.html?v1=384883667",
+          "type": "Pants"
+        },
+        {
+          "name": "SOFT JOGGER PANTS",
+          "description": "Mid rise pants with adjustable elastic drawstring waistband. Side hidden in-seam pockets. Elastic cuffs.",
+          "price": "39.90",
+          "src": "../public/images/product-women-fall-6.jpg",
+          "alt": "SOFT JOGGER PANTS - Front view image",
+          "link": "https://www.zara.com/us/en/soft-jogger-pants-p03199625.html?v1=415355026",
+          "type": "Pants"
         }
       ]
     },
     "winter": {
       "men": [
         {
-          "name": "Classic Winter Coat",
-          "description": "A cozy and warm winter coat designed for cold weather.",
-          "price": "99.90",
+          "name": "Seamless Down Coat",
+          "description": "Regular fit with a sleek pattern design.",
+          "price": "199.90",
           "src": "../public/images/product-men-winter-1.jpg",
-          "alt": "Classic Winter Coat - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E461001-000/00"
+          "alt": "Seamless Down Coat - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E470079-000/00?colorDisplayCode=09&sizeDisplayCode=003",
+          "type": "Coats"
         },
         {
-          "name": "Thermal Wool Sweater",
-          "description": "Made with wool to keep you warm during the winter months.",
-          "price": "39.90",
+          "name": "Recycled Hybrid Down Jacket",
+          "description": "Hybrid design with down padding in the body and polyester sheet padding in the sides and sleeves.",
+          "price": "89.90",
           "src": "../public/images/product-men-winter-2.jpg",
-          "alt": "Thermal Wool Sweater - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=57&sizeDisplayCode=003"
+          "alt": "Recycled Hybrid Down Jacket - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E470150-000/00?colorDisplayCode=57&sizeDisplayCode=003",
+          "type": "Jackets & Sweaters"
+        },
+        {
+          "name": "Hybrid Down Coat",
+          "description": "Ventilation fabric with added mesh at the back and inside for cool comfort.",
+          "price": "159.90",
+          "src": "../public/images/product-men-winter-3.jpg",
+          "alt": "Hybrid Down Coat - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E470076-000/00?colorDisplayCode=05&sizeDisplayCode=003",
+          "type": "Coats"
+        },
+        {
+          "name": "Ultra Warm Hybrid Down Coat",
+          "description": "Warm down and padding. Aluminum print lining in the body for improved heat retention.",
+          "price": "199.90",
+          "src": "../public/images/product-men-winter-4.jpg",
+          "alt": "Ultra Warm Hybrid Down Coat - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E470081-000/00?colorDisplayCode=56&sizeDisplayCode=003",
+          "type": "Coats"
+        },
+        {
+          "name": "Hybrid Down Parka",
+          "description": "Sleek design with no quilt stitching on the outside.",
+          "price": "159.90",
+          "src": "../public/images/product-men-winter-5.jpg",
+          "alt": "Hybrid Down Parka - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E473378-000/00?colorDisplayCode=08&sizeDisplayCode=003",
+          "type": "Coats"
+        },
+        {
+          "name": "Oversized Single Breasted Coat",
+          "description": "Hybrid design with down padding in the body and polyester sheet padding in the sides and sleeves.",
+          "price": "99.90",
+          "src": "../public/images/product-men-winter-6.jpg",
+          "alt": "Oversized Single Breasted Coat - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E471713-000/00?colorDisplayCode=08&sizeDisplayCode=003",
+          "type": "Coats"
         }
       ],
       "women": [
         {
-          "name": "Fleece Lined Tights",
-          "description": "Warm, fleece-lined tights perfect for layering.",
-          "price": "14.90",
+          "name": "Seamless Down Parka",
+          "description": "High-performance down with improved wind resistance and water repellency.",
+          "price": "149.90",
           "src": "../public/images/product-women-winter-1.jpg",
-          "alt": "Fleece Lined Tights - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E476248-000/00?colorDisplayCode=69&sizeDisplayCode=003"
+          "alt": "Seamless Down Parka - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E469896-000/00?colorDisplayCode=58&sizeDisplayCode=002",
+          "type": "Coats"
         },
         {
-          "name": "Winter Parka",
-          "description": "Insulated winter parka for maximum warmth and comfort.",
-          "price": "149.90",
+          "name": "Seamless Down Long Coat",
+          "description": "Now in a versatile straight silhouette.",
+          "price": "179.90",
           "src": "../public/images/product-women-winter-2.jpg",
-          "alt": "Winter Parka - Front view image",
-          "link": "https://www.uniqlo.com/us/en/products/E465762-000/00?colorDisplayCode=00&sizeDisplayCode=005"
+          "alt": "Seamless Down Long Coat - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E469898-000/00?colorDisplayCode=09&sizeDisplayCode=003",
+          "type": "Coats"
+        },
+        {
+          "name": "Seamless Down Short Coat",
+          "description": "Updated with a cocoon silhouette for a more refined design. Front placket design for a sleek look.",
+          "price": "159.90",
+          "src": "../public/images/product-women-winter-3.jpg",
+          "alt": "Seamless Down Short Coat - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E469897-000/00?colorDisplayCode=18&sizeDisplayCode=003",
+          "type": "Coats"
+        },
+        {
+          "name": "Hybrid Down Coat",
+          "description": "UNIQLO’s original hybrid balance of high-performance padding and warm, premium down with a fill power of 750+*. *Measured by the IDFB method",
+          "price": "159.90",
+          "src": "../public/images/product-women-winter-4.jpg",
+          "alt": "Hybrid Down Coat - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E469899-000/00?colorDisplayCode=32&sizeDisplayCode=003",
+          "type": "Coats"
+        },
+        {
+          "name": "Powder Soft Down Jacket",
+          "description": "Slide fastener hidden for a sleek look. Dot buttons let you wear it without closing the slide fastener.",
+          "price": "129.90",
+          "src": "../public/images/product-women-winter-5.jpg",
+          "alt": "Powder Soft Down Jacket - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E469901-000/00?colorDisplayCode=56&sizeDisplayCode=003",
+          "type": "Coats"
+        },
+        {
+          "name": "Ultra Light Down Long Coat",
+          "description": "Two-way design with a removable hood.",
+          "price": "129.90",
+          "src": "../public/images/product-women-winter-6.jpg",
+          "alt": "Ultra Light Down Long Coat - Front view image",
+          "link": "https://www.uniqlo.com/us/en/products/E469872-000/00?colorDisplayCode=31&sizeDisplayCode=003",
+          "type": "Jackets & Sweaters"
         }
       ]
     }
