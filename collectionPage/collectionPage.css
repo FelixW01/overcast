@@ -148,10 +148,17 @@ h3 {
 #dropdown1 {
   margin-top: 1rem !important;
   width: 50% !important;
+  height: auto !important;
 }
 
 #dropdown1 li a {
   color: #333333 !important;
+  padding: 1rem;
+  width: 100%;
+}
+
+.dropdown-li {
+  padding: 0.5rem;
 }
 
 #modal-toggle-btn {

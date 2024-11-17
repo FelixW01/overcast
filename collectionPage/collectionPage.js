@@ -69,7 +69,8 @@ function populateTags() {
 
     const tags = collectionTags[collection];
     tags.forEach(tag => {
-        dropdownEl.innerHTML += `<li><a data-value="${tag}">${tag}</a></li>`;
+        dropdownEl.innerHTML += `<li class="dropdown-li"><a data-value="${tag}">${tag}</a></li>
+                                 <li class="divider" tabindex="-1"></li>`;
     });
 }
 
@@ -125,9 +126,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
       });
-
-
-
 
   // Listen for when a dropdown item is selected
   dropdownEl.addEventListener('click', function(e) {
