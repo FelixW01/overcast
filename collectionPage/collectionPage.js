@@ -11,6 +11,7 @@ const collectionTags = {
     winter: ['Coats', 'Jackets & Sweaters']
 };
 const dropdownEl = document.getElementById('dropdown1');
+const currentYear = new Date().getFullYear();
 
 // Fetch data from JSON file
 function getData(selectedValue) {
@@ -134,3 +135,6 @@ document.addEventListener('DOMContentLoaded', function() {
       getData(selectedValue)
     }
   });
+
+  // Get the current year to create a dynamic footer
+document.getElementById('current-year').textContent = currentYear;

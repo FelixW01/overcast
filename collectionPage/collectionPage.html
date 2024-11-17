@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="collectionPage.css" />
   </head>
   <body>
-    <nav class="nav-container">
+    <nav class="nav-container" id="nav-hero">
       <div class="nav-div">
         <a href="../index.html"><img src="../public/images/logo-1.png" class="logo" /></a>
         <div class="nav-cart-div">
@@ -21,7 +21,7 @@
           <a><i class="fa-solid fa-cart-shopping" alt="shopping icon"></i></a>
         </div>
     </nav>
-    <main class="main-container">
+    <main class="main-container" id="main-hero">
         <section class="main-section">
             <h1 id="collection-title"></h1>
             
@@ -38,6 +38,36 @@
               </div>
             </div>
         </section>
+
+        <footer class="page-footer" id="footer-container">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <div class="arrow-container"><a href="#nav-hero"><i class="fa-solid fa-angle-up"></i></a></div>
+            <h5 class="white-text">Overcast</h5>
+            <p class="grey-text text-lighten-4">
+              For those who appreciates the cozy things in life
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul class="footer-ul">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="contactPage/contact.html">Contact</a></li>
+              <li><a href="https://www.instagram.com/uniqlousa/?hl=en"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+              <li><a href="https://www.youtube.com/@BeepTheProgrammer/videos"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="footer-div">
+        <p class="copyright-p">
+          ©<span id="current-year"></span> Overcast, All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="collectionPage.js"></script>
