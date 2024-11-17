@@ -4,6 +4,7 @@ const collection = localStorage.getItem('userCollection')
 let genderIsMen = true;
 const genderEl = document.getElementById('gender');
 const h1El = document.getElementById('collection-title');
+const titleEl = document.getElementById('title-tab')
 let filteredProducts = [];
 const collectionTags = {
     summer: ['T-shirt', 'Shorts'],
@@ -22,6 +23,7 @@ fetch('../products.json')
     .then(data => {
     divEl.innerHTML = ''; 
     h1El.innerHTML = `${collection.charAt(0).toUpperCase() + collection.slice(1)} Collection`
+    titleEl.innerHTML = `${collection.charAt(0).toUpperCase() + collection.slice(1)}`
     
     // Get the collection data to be able to filter the products dynamically instead of hard coding the collections
     const collectionData = data.collections[collection];
