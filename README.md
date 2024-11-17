@@ -1,10 +1,11 @@
 # Overcast
 
 ## Live Website 
-https://felixw01.github.io/e-commerce/
+https://felixw01.github.io/overcast/
 
 ## Description
-
+Welcome to  Overcacast, your one stop shop for your seasonal clothing needs. Overcast focuses on delivering fashion solutions towards those who appreciates the cozy things in life.
+This website was created for the purpose of honing Javascript, HTML and CSS skills especially the practice of fetching an API and dynamically rendering said data into the DOM.
 
 ## Table of Contents
 - [App Demo](#app-demo)
@@ -13,6 +14,10 @@ https://felixw01.github.io/e-commerce/
 - [Questions](#questions)
 
 ## App Demo
+<img src="https://github.com/user-attachments/assets/5ce725c0-2130-466f-8764-9855141c105c" width="400" />
+<img src="https://github.com/user-attachments/assets/99b5ec31-bcc9-4eed-8dc2-4a843b19ccee" width="400" />
+
+
 
 ## Installation
 To run locally, follow these steps:
@@ -24,7 +29,7 @@ To run locally, follow these steps:
 
 2. Navigate to the project directory:
     ```bash
-    cd e-commerce
+    cd overcast
     ```
     
 3. To run the application, open via live server in your web browser.
