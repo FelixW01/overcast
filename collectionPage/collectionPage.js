@@ -124,20 +124,17 @@ document.addEventListener('DOMContentLoaded', function() {
             isOpen = false
           }
         });
-        elems.forEach((elem) => {
-        elem.addEventListener('click', (e) => {
-            e.stopPropagation();
-        });
-    });
       });
 
   // Listen for when a dropdown item is selected
-  dropdownEl.addEventListener('click', function(e) {
-    if (e.target) {
-      const selectedValue = e.target.textContent.trim();
-      getData(selectedValue)
+dropdownEl.addEventListener('click', function (e) {
+    const li = e.target.closest('.dropdown-li');
+    if (li) {
+        const selectedValue = li.textContent.trim();
+        getData(selectedValue);
+        console.log('Clicked:', selectedValue);
     }
-  });
+});
 
   // Get the current year to create a dynamic footer
 document.getElementById('current-year').textContent = currentYear;
