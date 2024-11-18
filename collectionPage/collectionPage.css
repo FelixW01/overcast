@@ -188,6 +188,11 @@ h3 {
   text-decoration: underline;
 }
 
+.dropdown-content {
+  position: absolute !important;
+  z-index: 1000 !important;
+}
+
 @media (min-width: 600px) {
   .main-div {
     display: flex;
