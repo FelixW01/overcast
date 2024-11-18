@@ -128,6 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Listen for when a dropdown item is selected
 dropdownEl.addEventListener('click', function (e) {
+    e.stopPropagation();
     const li = e.target.closest('.dropdown-li');
     if (li) {
         const selectedValue = li.textContent.trim();
