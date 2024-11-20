@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       });
 
-  // Listen for when a dropdown item is selected
+// Listen for when a dropdown item is selected
 dropdownEl.addEventListener('click', function (e) {
     e.stopPropagation();
     const li = e.target.closest('.dropdown-li');
@@ -137,5 +137,5 @@ dropdownEl.addEventListener('click', function (e) {
     }
 });
 
-  // Get the current year to create a dynamic footer
+// Get the current year to create a dynamic footer
 document.getElementById('current-year').textContent = currentYear;

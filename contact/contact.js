@@ -84,7 +84,7 @@ function errorMessage(input, message) {
 // Reset the error messages, so it doesn't show multiple times
 function errorReset() {
     const errorMsg = document.querySelectorAll('.error-text');
-    // Removes the .error-text from the dom
+    // Removes the element with .error-text from the dom
     errorMsg.forEach(error => error.remove())
     isValid = true
 }
