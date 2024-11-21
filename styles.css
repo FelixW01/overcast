@@ -136,7 +136,7 @@ a:visited {
 }
 
 @keyframes animate {
-  0% {
+  100% {
     transform: translateY(-5px);
   }
 }

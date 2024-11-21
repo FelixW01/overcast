@@ -7,7 +7,7 @@ html {
   max-width: 100%;
 }
 body {
-  min-height: 100%;
+  min-height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -71,6 +71,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   flex-grow: 1;
 }
 
