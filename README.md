@@ -1,10 +1,14 @@
-# Vital View
+
+# Overcast
 
 ## Live Website 
-https://vital-view-e7d695ab1868.herokuapp.com/
+https://felixw01.github.io/overcast/
+
+https://main.dl6emuh44uay.amplifyapp.com/index.html
 
 ## Description
-Welcome to Vital View, a full-stack application designed to help individuals track their blood sugar levels, discover food recommendations for managing glucose levels, and emphasize the importance of community well-being. This application is built using Express, Node.js, JavaScript, MySQL, and Handlebars. It provides a simple yet powerful tool to track glucose levels and receive personalized dietary recommendations based on blood sugar readings.
+Welcome to  Overcacast, your one stop shop for your seasonal clothing needs. Overcast focuses on delivering fashion solutions towards those who appreciates the cozy things in life.
+This website was created for the purpose of honing Javascript, HTML and CSS skills especially the practice of fetching an API and dynamically rendering said data into the DOM.
 
 ## Table of Contents
 - [App Demo](#app-demo)
@@ -13,6 +17,9 @@ Welcome to Vital View, a full-stack application designed to help individuals tra
 - [Questions](#questions)
 
 ## App Demo
+<img src="https://github.com/user-attachments/assets/5ce725c0-2130-466f-8764-9855141c105c" width="400" />
+<img src="https://github.com/user-attachments/assets/99b5ec31-bcc9-4eed-8dc2-4a843b19ccee" width="400" />
+
 
 
 ## Installation
@@ -25,37 +32,13 @@ To run locally, follow these steps:
 
 2. Navigate to the project directory:
     ```bash
-    cd vital-view
+    cd overcast
     ```
     
-3. Install all required Node.js dependencies by running:
-    ```bash
-    npm install
-    cd server/npm install
-    ```
+3. To run the application, open via live server in your web browser.
 
-4. Make sure you have MySQL installed and running. Then, create a new database for the application:
-    ```bash
-    CREATE DATABASE vital_view;
-    ```
-    
-5. Create a .env file in the root of the project directory and add the following environment variables:
-    ```bash
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=your_mysql_password
-    DB_NAME=vital-view
-    SESSION_SECRET=your_secret_key
-    ```
-6. Once the dependencies are installed and the database is set up, start the application by running:
-    ```bash
-    npm run dev
-    ```
-7. The app should now be running locally. Open your browser and go to:
-    ```bash
-    http://localhost:3000
-    ```
+
 ## Contributing
-Felix Willem, Andrea Merlos, Jennifer Guzman, Kevin Castro Guzman, Nate Sherer
+Felix Willem
 ## Questions
 If you have any questions please contact me via github: FelixW01 or Email: felixwillem01@yahoo.com.
