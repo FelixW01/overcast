@@ -1,9 +1,11 @@
 
 # Overcast
+# This project has been refactored, Please take a look at overcast v.2.0
+Live: https://overcast-98c306aa4a6c.herokuapp.com/
+
+GH: https://github.com/FelixW01/overcast-2
 
 ## Live Website 
-https://felixw01.github.io/overcast/
-
 https://main.dl6emuh44uay.amplifyapp.com/index.html
 
 ## Description
